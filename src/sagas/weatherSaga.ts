@@ -22,8 +22,6 @@ function* getWeather({payload}: getWeatherActionType) {
         yield put(toggleWeatherLoader(true))
         let response: AxiosResponse = yield call(getWeatherByCityIdReq, payload.city, payload.unit)
         yield put({type: WRITE_WEATHER, payload: response.data})
-        yield localStorage.setItem('weather', JSON.stringify(response.data))
-        yield localStorage.setItem('city', JSON.stringify(payload.city))
         yield put(toggleWeatherLoader(false))
     } catch (e: any) {
         yield put({type: WRITE_ERROR, payload: JSON.stringify(e.response)})
@@ -44,10 +42,8 @@ function* getWeatherByCityName() {
             )
         })
         let coords: ICoords = yield call(getUserLocation)
-        console.log(coords)
-        let city: AxiosResponse = yield call(getCityNameReq, coords)
-        // let response: AxiosResponse = yield call(getWeatherByCityNameReq, city)
-        // yield put({type: WRITE_WEATHER, payload: response.data})
+        let weatherByCity: AxiosResponse = yield call(getCityNameReq, coords)
+        yield put({type: WRITE_WEATHER, payload: weatherByCity.data})
         yield put(toggleWeatherLoader(false))
     } catch (e: any) {
         yield put({type: WRITE_ERROR, payload: JSON.stringify(e.response)})

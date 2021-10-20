@@ -10,23 +10,18 @@ import {RootState} from "../store/store";
 
 function App() {
     const dispatch = useDispatch()
-    const {city,unit,error} = useSelector((state: RootState) => state.weatherReducer)
-    useEffect(()=>{
-        if(error)
+    const {city, unit, error} = useSelector((state: RootState) => state.weatherReducer)
+    useEffect(() => {
+        if (error)
             alert(error)
-    },[error])
+    }, [error])
     useEffect(() => {
         if (city)
             dispatch({type: FETCH_GET_WEATHER, payload: {city, unit}})
     }, [city, unit])
-    useEffect(()=>{
-        if(localStorage.getItem('weather') || localStorage.getItem('city')){
-            dispatch({type: WRITE_WEATHER, payload: JSON.parse(localStorage.getItem('weather') as string)})
-            dispatch({type: WRITE_CITY, payload: JSON.parse(localStorage.getItem('city') as string)})
-        }else {
-            dispatch({type: FETCH_GET_WEATHER_BY_LOCATION})
-        }
-    },[])
+    useEffect(() => {
+        dispatch({type: FETCH_GET_WEATHER_BY_LOCATION})
+    }, [])
     return (
         <div className="App container">
             <div className="weather-manager">
