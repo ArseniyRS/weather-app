@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1528253,
+    "name": "Ivanovo-Alekseyevka",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 72.209038,
+      "lat": 42.547619
+    }
+  },
+  {
+    "id": 1528260,
+    "name": "Issyk-Kul Region",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 78.0,
+      "lat": 42.0
+    }
+  },
+  {
+    "id": 1528320,
+    "name": "Gul’cha",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 73.444183,
+      "lat": 40.313801
+    }
+  },
+  {
+    "id": 1528334,
+    "name": "Gorod Bishkek",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 74.600258,
+      "lat": 42.895859
+    }
+  },
+  {
+    "id": 1528336,
+    "name": "Kadamjay",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 71.73333,
+      "lat": 40.116669
+    }
+  },
+  {
+    "id": 1528512,
+    "name": "Cholpon-Ata",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 77.082253,
+      "lat": 42.649441
+    }
+  },
+  {
+    "id": 1528566,
+    "name": "Chayek",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 74.516991,
+      "lat": 41.927681
+    }
+  },
+  {
+    "id": 1528606,
+    "name": "Kemin",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 75.689171,
+      "lat": 42.78458
+    }
+  },
+  {
+    "id": 1528646,
+    "name": "Bosteri",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 77.185883,
+      "lat": 42.660061
+    }
+  },
+  {
+    "id": 1528666,
+    "name": "Bokombayevskoye",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 76.993317,
+      "lat": 42.11768
+    }
+  },
+  {
+    "id": 1528675,
+    "name": "Bishkek",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 74.589996,
+      "lat": 42.869999
+    }
+  },
+  {
+    "id": 1528702,
+    "name": "Belovodskoye",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 74.108299,
+      "lat": 42.829441
+    }
+  },
+  {
+    "id": 1528717,
+    "name": "Bazar-Korgon",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 72.745857,
+      "lat": 41.037601
+    }
+  },
+  {
+    "id": 1528735,
+    "name": "Batken",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 70.819389,
+      "lat": 40.062592
+    }
+  },
+  {
+    "id": 1528766,
+    "name": "Baetovo",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 74.956978,
+      "lat": 41.266682
+    }
+  },
+  {
+    "id": 1528796,
+    "name": "At-Bashi",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 75.810577,
+      "lat": 41.17017
+    }
+  },
+  {
+    "id": 1528831,
+    "name": "Aravan",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 72.499603,
+      "lat": 40.516079
+    }
+  },
+  {
+    "id": 1528856,
+    "name": "Alga",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 71.466667,
+      "lat": 40.23333
+    }
+  },
+  {
+    "id": 1528875,
+    "name": "Ala-Buka",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 71.486282,
+      "lat": 41.4105
+    }
+  },
+  {
+    "id": 1528913,
+    "name": "Ak-Sëok",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 74.166672,
+      "lat": 43.01667
+    }
+  },
+  {
+    "id": 1528919,
+    "name": "Ak-Shor",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 72.209633,
+      "lat": 40.44574
+    }
+  },
+  {
+    "id": 1528947,
+    "name": "Ak-Chiy",
+    "state": "",
+    "country": "KG",
+    "coord": {
+      "lon": 74.844009,
+      "lat": 41.22546
+    }
+  }
+]
