@@ -1,0 +1,48 @@
+@import "../colors";
+body[data-theme="dark"] {
+  background: $bgDarkColor;
+
+  .weather {
+    &-manager {
+      background:  $cardBgDarkColor;
+      .city-search {
+        &__submit {
+          color: $fontDarkColor;
+        }
+      }
+    }
+
+    &-card {
+      background:  $cardBgDarkColor;
+      &__title {
+        color: $fontDarkColor;
+      }
+    }
+
+
+    &__city {
+      color: $fontDarkColor;
+
+    }
+
+    &__type {
+      color: $fontDarkColor;
+    }
+
+    &__temp {
+      span {
+        color: $fontDarkColor;
+      }
+    }
+
+    &-detail {
+      color: $fontDarkColor;
+
+    }
+  }
+
+  .no-weather {
+
+    color: $fontDarkColor;
+  }
+}

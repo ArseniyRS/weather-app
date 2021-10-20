@@ -1,7 +1,7 @@
 import {put, StrictEffect, takeEvery} from "redux-saga/effects";
-import {call, fork, select} from "@redux-saga/core/effects";
+import {call} from "@redux-saga/core/effects";
 import {toggleWeatherLoader} from "../store/reducers/weatherReducer";
-import {getCityNameReq, getWeatherByCityIdReq, getWeatherByCityNameReq} from "../api/weather";
+import {getCityNameReq, getWeatherByCityIdReq} from "../api/weather";
 import {WRITE_WEATHER, FETCH_GET_WEATHER, FETCH_GET_WEATHER_BY_LOCATION, WRITE_ERROR} from "../constants/weather";
 import {AxiosResponse} from "axios";
 import {ICity} from "../models/ICity";
@@ -12,10 +12,7 @@ interface getWeatherActionType {
     payload: { city: ICity, unit: string };
 }
 
-interface getWeatherByLocationActionType {
-    type: "FETCH_GET_WEATHER_BY_LOCATION";
-    payload: string;
-}
+
 
 function* getWeather({payload}: getWeatherActionType) {
     try {

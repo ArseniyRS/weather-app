@@ -4,9 +4,9 @@ import CitySearch from "./CitySearch";
 import SelectUnit from "./SelectUnit";
 import WeatherCard from './WeatherCard';
 import {useDispatch, useSelector} from "react-redux";
-import {FETCH_GET_WEATHER, FETCH_GET_WEATHER_BY_LOCATION, WRITE_CITY, WRITE_WEATHER} from "../constants/weather";
-import {weatherReducer} from "../store/reducers/weatherReducer";
+import {FETCH_GET_WEATHER, FETCH_GET_WEATHER_BY_LOCATION} from "../constants/weather";
 import {RootState} from "../store/store";
+import ThemeSwitch from "./ThemeSwitch";
 
 function App() {
     const dispatch = useDispatch()
@@ -24,6 +24,7 @@ function App() {
     }, [])
     return (
         <div className="App container">
+            <ThemeSwitch />
             <div className="weather-manager">
                 <CitySearch/>
                 <SelectUnit/>
